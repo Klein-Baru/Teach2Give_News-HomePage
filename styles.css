@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header .__imageCont img {
+    width: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Main Section Layout */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Featured Article Section */
+main section {
+    flex: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main section img {
+    width: 100%;
+    height: auto;
+}
+
+main section .imagebg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Articles Layout */
+main article {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+main article h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+main article p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+main article button {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sidebar (Aside) */
+aside {
+    flex: 1;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+aside .__box_content {
+    margin-bottom: 20px;
+}
+
+aside .__box_content h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+aside .__box_content p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+aside .__box_content .border {
+    height: 1px;
+    background-color: #fff;
+}
+
+/* Bottom Section (Featured News) */
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section .__box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+section .__box img {
+    width: 100%;
+    height: auto;
+}
+
+section .__box .content__img {
+    padding: 20px;
+}
+
+section .__box .content__img h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section .__box .content__img h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+section .__box .content__img p {
+    font-size: 1em;
+}
